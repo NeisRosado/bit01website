@@ -1,27 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/contacto.css">
-    <link rel="icon" href="/images/favicon-32x32.png">
-    <title>Contact</title>
-</head>
-<body>
-    <header class="header">
-        <nav class="header__nav">
-            <figure class="nav__image">
-               <a href="/index.html"><img src="/images/logo.svg" alt="logo insure" /></a> 
-                <ul class="nav__list">
-                    <li class="list">BLOG</li>
-                    <li class="list">ACCOUNT</li>
-                    <li class="list" id="view">CONTACT</li>
-                </ul>
-            </figure>
 
-        </nav>
-    </header>
-    
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles/contacto.css">
+  <link rel="icon" href="/images/favicon-32x32.png">
+  <title>Contact</title>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="header__nav">
+      <figure class="nav__image">
+        <a href="/index.html"><img src="/images/logo.svg" alt="logo insure" /></a>
+        <ul class="nav__list">
+          <li class="list">BLOG</li>
+          <li class="list">ACCOUNT</li>
+          <li class="list" id="view">CONTACT</li>
+        </ul>
+      </figure>
+
+    </nav>
+  </header>
+  <main class="main">
+    <figure id="lineas__izquierda"><img src="/images/bg-pattern-intro-left-desktop.svg" alt="patrón de lineas">
+    </figure>
+
+    <section class="main__section__centro">
+      <form id="form">
+        <label class="inputbox">
+          <span class="inputSpan">Full Name</span>
+          <input type="text" placeholder="Type your name" class="input" id="name" />
+        </label>
+        <label class="inputbox">
+          <span class="inputSpan">Contact</span>
+          <input type="number" placeholder="Type your telephone number" class="input" id="phone" />
+        </label>
+        <label class="inputbox">
+          <span class="inputSpan">Country </span>
+          <input type="text" placeholder=" Type your country or city " class="input" id="city" />
+        </label>
+        <br>
+        <button type="submit" class="btnSubmit">Save</button>
+      </form>
+      <table id="tableData">
+        <thead>
+
+          <tr>
+            <th>Name</th>
+            <th>Contact</th>
+            <th>Country</th>
+          </tr>
+        </thead>
+        <tbody id="tbodyData"></tbody>
+      </table>
+    </section>
+  </main>
+  <footer class="footer">
+    <figure class="footer__image">
+      <img src="/images/logo.svg" alt="logo insure" />
+    </figure>
+
+    <br>
+    <hr id="hr__footer">
+    <br>
+    <section class="footer__div">
+      <div class="div_uno">
+        <ul class="footer__div__list">
+          <h5 class="tittle"> OUR COMPANY</h5>
+          <br>
+          <li class="div__list">HOW WE WORK</li>
+          <li class="div__list">WHY INSURE?</li>
+          <li class="div__list">VIEW PLANS</li>
+          <li class="div__list">REVIEWS</li>
+        </ul>
+        <div class="div_dos">
+          <ul class="footer__div__list">
+            <h5 class="tittle">HELP ME</h5>
+            <br>
+            <li class="div__list">FAQ </li>
+            <li class="div__list">TERMS OF USE</li>
+            <li class="div__list">PRIVACY POLICY</li>
+            <li class="div__list">COOKIES</li>
+          </ul>
+        </div>
+        <div class="div_tres">
+          <ul class="footer__div__list">
+            <h5 class="tittle">CONTACT</h5>
+            <br>
+            <li class="div__list">SALES</li>
+            <li class="div__list">SUPPORT</li>
+            <li class="div__list">LIVE CHAT</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <script src="/scripts/script.js"></script>
 </body>
+
 </html>

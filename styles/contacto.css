@@ -1,48 +1,189 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .header {
-    margin-left: 90px;
-    margin-right: 90px;
-    padding: 35px;
+  margin-left: 90px;
+  margin-right: 90px;
+  padding: 35px;
 
 }
 
-.nav__list  {
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    gap: 25px;
-    font-family: "Karla", sans-serif;
-    color: black;
-    font-weight: 400;
-    list-style: none;
-    cursor: pointer;
-    font-size: 18px;
-    color: hsl(216, 30%, 68%);
-    font-weight: bold;
-    
+.nav__list {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 25px;
+  font-family: "Karla", sans-serif;
+  color: black;
+  font-weight: 400;
+  list-style: none;
+  cursor: pointer;
+  font-size: 18px;
+  color: hsl(216, 30%, 68%);
+  font-weight: bold;
+
 }
 
 a {
-    text-decoration: none;
-  
+  text-decoration: none;
+
 }
 
 
-.nav__list :hover  {
-font-weight: bold;
-color: black;
-   }
+.nav__list :hover {
+  font-weight: bold;
+  color: black;
+}
 
 .nav__image {
-    margin-top: 15px;
-    display: flex;
-    justify-content: space-between;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
 
+}
+
+.main {
+  display: flex;
+
+}
+
+.main__section__centro {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-right: 90px;
+}
+
+
+
+#form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: hsl(216, 30%, 68%);
+  padding: 20px;
+  margin: 40px;
+  border-radius: 20px;
+  width: 500px;
+}
+
+.inputbox {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  
+
+}
+
+.inputSpan {
+  padding: 15px;
+  font-size: 20px;
+  font-family: "Karla", sans-serif;
+  color: white;
+  font-weight: bold;
+  text-align: left;
+
+}
+
+.input {
+  border: none;
+  outline: none;
+  padding: 15px;
+  border-radius: 5px;
+
+}
+
+.btnSubmit {
+  background-color: white;
+  border: none;
+  width: 150px;
+  align-self: center;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: black;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.btnSubmit:hover {
+  background-color: rgb(45, 38, 64);
+  color: white;
+}
+
+#tableData {
+  background-color: hsl(216, 30%, 68%);
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 20px;
+  margin: 40px;
+  text-align: center;
+  width: 500px;
+}
+
+#tableData thead tr th {
+   /* text-align: center; */
+  padding: 5px;
+  font-family: "Karla", sans-serif;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+}
+
+
+
+.footer__nav {
+  display: flex;
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
+.footer__image {
+  display: flex;
+  justify-content: left;
+  margin-left: 90px;
+
+}
+
+.footer__list {
+  display: flex;
+  justify-content: right;
+  list-style: none;
+  gap: 10px;
+}
+
+#hr__footer {
+  margin-left: 90px;
+  margin-right: 90px;
+  width: 1850px;
+  border: solid 1px gray;
+}
+
+.footer__div div {
+  display: flex;
+  justify-content: space-around;
+
+
+}
+
+.tittle {
+  font-family: "Karla", sans-serif;
+  font-size: 18px;
+  color: hsl(216, 30%, 68%);
+  font-weight: bold;
+
+}
+
+.footer__div__list {
+  list-style: none;
+  font-family: "Karla", sans-serif;
+  color: hsl(270, 9%, 17%);
+  font-size: 16px;
+  font-weight: bold;
+  padding: 50px;
 }
