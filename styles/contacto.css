@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    margin-left: 90px;
+    margin-right: 90px;
+    padding: 35px;
+
+}
+
+.nav__list  {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 25px;
+    font-family: "Karla", sans-serif;
+    color: black;
+    font-weight: 400;
+    list-style: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: hsl(216, 30%, 68%);
+    font-weight: bold;
+    
+}
+
+a {
+    text-decoration: none;
+  
+}
+
+
+.nav__list :hover  {
+font-weight: bold;
+color: black;
+   }
+
+.nav__image {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+
+}

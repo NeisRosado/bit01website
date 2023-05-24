@@ -1,3 +1,187 @@
-body {
-    background-color: azure;
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    margin-left: 90px;
+    margin-right: 90px;
+    padding: 35px;
+
+}
+
+.nav__list  {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 25px;
+    font-family: "Karla", sans-serif;
+    color: black;
+    font-weight: 400;
+    list-style: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: hsl(216, 30%, 68%);
+    font-weight: bold;
+    
+}
+
+a {
+    text-decoration: none;
+  
+}
+
+
+.nav__list :hover  {
+font-weight: bold;
+color: black;
+   }
+
+.nav__image {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.main__section__inicio {
+    display: flex;
+    justify-content: space-evenly;
+    height: 550px;
+    background-color: hsl(256, 26%, 20%);
+    color: white;
+    padding: 90px;
+}
+
+.main__article__inicio {
+    font-family: "Karla", sans-serif;
+    font-size: 16px;
+}
+
+#texto__inicio {
+    margin-left: 40px;
+}
+
+#list__view__plans {
+    margin-left: 40px;
+    list-style: none;
+    border: 1px solid white;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+}
+
+h1 {
+    margin-left: 40px;
+    font-family: serif;
+    font-size: 60px;
+}
+
+hr {
+    margin-left: 40px;
+    width: 130px;
+    border: solid 1px gray;
+}
+
+.main__image {
+    display: flex;
+    justify-content: right;
+    margin-right: 90px;
+}
+
+
+
+h2 {
+    font-family: serif;
+    font-size: 50px;
+    color: hsl(270, 9%, 17%);
+}
+
+.main__section__centro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-right: 90px;
+}
+
+
+h4 {
+    color: hsl(270, 9%, 17%);
+    font-family: serif;
+    font-size: 22px;
+    font-weight: bold;
+    }
+
+.snappy {
+    
+    color: hsl(270, 9%, 17%);
+    font-family: "Karla", sans-serif;
+    font-size: 22px;
+}
+
+.prices {
+    color: hsl(270, 9%, 17%);
+    font-family: "Karla", sans-serif;
+    font-size: 22px;
+}
+
+.people {
+    color: hsl(270, 9%, 17%);
+    font-family: "Karla", sans-serif;
+    font-size: 22px;
+}
+
+.footer__nav {
+    display: flex;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.footer__image {
+    display: flex;
+    justify-content: left;
+    margin-left: 90px;
+
+}
+
+.footer__list {
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    gap: 10px;
+}
+
+#hr__footer {
+    margin-left: 90px;
+    margin-right: 90px;
+    width: 1850px;
+    border: solid 1px gray;
+}
+
+.footer__div div {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.tittle {
+    font-family: "Karla", sans-serif;
+    font-size: 18px;
+    color: hsl(216, 30%, 68%);
+    font-weight: bold;
+
+}
+
+.footer__div__list {
+    list-style: none;
+    font-family: "Karla", sans-serif;
+    color: hsl(270, 9%, 17%);
+    font-size: 16px;
+    font-weight: bold;
+    padding: 50px;
 }
