@@ -1,140 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/style.css">
-    <link rel="icon" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
     <title>INSURE</title>
+
 </head>
 
 <body>
-    <header class="header">
-        <nav class="header__nav">
-            <figure class="nav__image">
-                <a href="/index.html"><img src="/images/logo.svg" alt="logo insure" /></a>
-
-                <ul class="nav__list">
-                    <li class="list">BLOG</li>
-                    <li class="list">ACCOUNT</li>
-                    <a href="/pages/contacto.html" target="_blank">
-                        <li class="list" id="view"> CONTACT </li>
-                    </a>
-                </ul>
-            </figure>
-
+    <header>
+        <div class="logo">
+            <img src="./images/logo.svg" alt="Logo de la página">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <!-- <li><a href="#">planes</a></li> -->
+                <li><a href="./pages/contacto.html">Contacto</a></li>
+            </ul>
         </nav>
     </header>
-    <main class="main">
-        <section class="main__section__inicio">
-            <article class="main__article__inicio">
-                <hr>
-                <br>
-                <br>
 
-                <h1>Humanizing <br>
-                    your
-                    insurance.</h1>
-                <p id="texto__inicio">
-                    <br>
-                    Get your life insurance converage easier and faster. We blend our
-                    expertise
-                    <br>
-                    and technology to help you find the plan that's right for
-                    you. Ensure you
-                    <br>
-                    and your loved ones are protected.
-
-                </p>
-                <br>
-                <li id="list__view__plans">VIEW PLANS</li>
-            </article>
-            <figure class="main__image">
-                <img src="images/image-intro-desktop.jpg" alt="familia tomada de la mano caminando" />
-        </section>
-
-        <section class="main__section__centro">
-            <figure id="lineas__izquierda"><img src="./images/bg-pattern-intro-left-desktop.svg" alt="patrón de lineas">
-            </figure>
-            <h2>We're different</h2>
-            <br>
-            <div class="snappy">
-                <figure class="img__snappy">
-                    <img src="./images/icon-snappy-process.svg" alt="icono de rayo" />
-                </figure>
-                <br>
-                <h4>Snappy Process</h4>
-                <p>
-                    Our application process can be completed in minutes, not hours.
-                    Don't get stuck filling in tedious forms.
-                </p>
-            </div>
-            <div class="prices">
-                <figure class="img__prices">
-                    <img src="./images/icon-affordable-prices.svg" alt="icono signo peso" />
-                </figure>
-                <br>
-                <h4>Affordable Prices</h4>
-                <p>
-                    We dont want you worrying about high monthly costs. Our prices may
-                    be low, but we still offer the best coverage possiale.
-                </p>
-            </div>
-            <div class="people">
-                <figure class="img__people">
-                    <img src="./images/icon-people-first.svg" alt="icono de usuario" />
-                </figure>
-                <br>
-                <h4>People First</h4>
-                <p>
-                    Our plans aren't full of conditions and clauses to prevent payouts. We make sure you're covered when
-                    you need it.
-                </p>
+    <main>
+        <section id="banner">
+            <h2>Bienvenido a Insure</h2>
+            <p>Su familia es lo más importante. Proteja su futuro con nuestros planes seguros y confiables.
+            </p>
+            <div class="family-photos">
+                <img src="./images/familia-1.jpg" alt="familia-joven-sus-hijos-casa-divirtiendose">
             </div>
         </section>
 
+        <section id="planes">
+            <!-- <h2>Planes de Seguro de Vida</h2> -->
+            <div class="plan">
+                <h3>Plan Básico</h3>
+                <p>Proporciona tranquilidad y seguridad financiera a tus seres queridos, asegurando que estarán cubiertos en momentos difíciles.</p>
+                <a href="#" class="btn">Más información</a>
+            </div>
+            <div class="plan">
+                <h3>Plan Premium</h3>
+                <p>Este plan ofrece una suma asegurada significativa en caso de fallecimiento, así como una amplia gama de beneficios adicionales. Puede incluir cobertura por enfermedades graves, invalidez, asistencia médica de primer nivel y servicios exclusivos.</p>
+                <a href="#" class="btn">Más información</a>
+            </div>
+            <div class="plan">
+                <h3>Plan Familiar</h3>
+                <p>Beneficios adicionales, como asistencia médica y cobertura para gastos educativos. Con el Plan Familiar, puedes asegurarte de que tu familia estará protegida en todas las etapas de la vida.</p>
+                <a href="#" class="btn">Más información</a>
+            </div>
+            <div class="plan">
+                <h3>Plan Estándar</h3>
+                <p>Además de la suma asegurada en caso de fallecimiento, este plan puede ofrecer beneficios adicionales, como cobertura por enfermedades graves o invalidez. </p>
+                <a href="#" class="btn">Más información</a>
+            </div>
+        </section>
     </main>
-    <footer class="footer">
-        <figure class="footer__image">
-            <img src="./images/logo.svg" alt="logo insure" />
-        </figure>
 
-        <br>
-        <hr id="hr__footer">
-        <br>
-        <section class="footer__div">
-            <div class="div_uno">
-                <ul class="footer__div__list">
-                    <h5 class="tittle"> OUR COMPANY</h5>
-                    <br>
-                    <li class="div__list">HOW WE WORK</li>
-                    <li class="div__list">WHY INSURE?</li>
-                    <li class="div__list">VIEW PLANS</li>
-                    <li class="div__list">REVIEWS</li>
-                </ul>
-                <div class="div_dos">
-                    <ul class="footer__div__list">
-                        <h5 class="tittle">HELP ME</h5>
-                        <br>
-                        <li class="div__list">FAQ </li>
-                        <li class="div__list">TERMS OF USE</li>
-                        <li class="div__list">PRIVACY POLICY</li>
-                        <li class="div__list">COOKIES</li>
-                    </ul>
-                </div>
-                <div class="div_tres">
-                    <ul class="footer__div__list">
-                        <h5 class="tittle">CONTACT</h5>
-                        <br>
-                        <li class="div__list">SALES</li>
-                        <li class="div__list">SUPPORT</li>
-                        <li class="div__list">LIVE CHAT</li>
-                    </ul>
+    <footer>
+        <div class="footer-left">
+            <div class="logo">
+                <img src="./images/logo.svg" alt="Logo de la página">
+            </div>
+            <div class="social-icons">
+                <div class="social-icons">
+                    <a href="#" class="social-icon">
+                        <img src="./images/facebook-logo.png" alt="Facebook" width="35px">
+                    </a>
+
+                    <a href="#" class="social-icon">
+                        <img src="./images/instagram-logo.png" alt="Instagram" width="35px">
+                    </a>
                 </div>
             </div>
-        </section>
-        </body>
+        </div>
+        <div class="footer-right">
+            <p>Dirección: Calle Principal 123</p>
+            <p>País: Colombia</p>
+            <p>Teléfono: 123-456-7890</p>
+        </div>
+        <div class="footer-bottom">
+            <p>Derechos de autor &copy; 2023 - Insure</p>
+        </div>
+    </footer>
+
+</body>
 
 </html>

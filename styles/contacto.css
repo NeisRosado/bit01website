@@ -1,54 +1,48 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla&display=swap");
 
-* {
+body {
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
-.header {
-  margin-left: 90px;
-  margin-right: 90px;
-  padding: 35px;
-
-}
-
-.nav__list {
-  display: flex;
-  justify-content: right;
-  align-items: center;
-  gap: 25px;
-  font-family: "Karla", sans-serif;
-  color: black;
-  font-weight: 400;
-  list-style: none;
-  cursor: pointer;
-  font-size: 18px;
-  color: hsl(216, 30%, 68%);
-  font-weight: bold;
-
-}
-
-a {
-  text-decoration: none;
-
-}
-
-
-.nav__list :hover {
-  font-weight: bold;
-  color: black;
-}
-
-.nav__image {
-  margin-top: 15px;
+header {
+  background-color: #f2f2f2;
+  padding: 20px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
 
+.logo img {
+  height: 30px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+  font-weight: bold;
+}
+nav ul :hover {
+  font-weight: bold;
+  color: blue;
+}
+
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
 }
 
 .main {
   display: flex;
+  justify-content: space-around;
 
 }
 
@@ -137,53 +131,29 @@ a {
 
 
 
-.footer__nav {
+footer {
+  background-color: #f2f2f2;
+  color: black;
+  padding: 20px;
+}
+
+.footer-left {
   display: flex;
-  margin-left: 90px;
-  margin-right: 90px;
+  align-items: center;
 }
 
-.footer__image {
+.social-icons {
   display: flex;
-  justify-content: left;
-  margin-left: 90px;
-
+  margin-left: 20px;
 }
 
-.footer__list {
-  display: flex;
-  justify-content: right;
-  list-style: none;
-  gap: 10px;
+.social-icon {
+  color: #fff;
+  margin-right: 10px;
 }
 
-#hr__footer {
-  margin-left: 90px;
-  margin-right: 90px;
-  width: 1850px;
-  border: solid 1px gray;
+.footer-right {
+  margin-top: 10px;
 }
 
-.footer__div div {
-  display: flex;
-  justify-content: space-around;
 
-
-}
-
-.tittle {
-  font-family: "Karla", sans-serif;
-  font-size: 18px;
-  color: hsl(216, 30%, 68%);
-  font-weight: bold;
-
-}
-
-.footer__div__list {
-  list-style: none;
-  font-family: "Karla", sans-serif;
-  color: hsl(270, 9%, 17%);
-  font-size: 16px;
-  font-weight: bold;
-  padding: 50px;
-}
