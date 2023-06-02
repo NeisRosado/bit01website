@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla&display=swap");
+ @import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla&display=swap");
 
 body {
   font-family: Arial, sans-serif;
@@ -29,11 +29,11 @@ nav ul li {
   margin-right: 10px;
   font-weight: bold;
 }
-nav ul :hover {
+
+nav ul li:hover {
   font-weight: bold;
   color: blue;
 }
-
 
 nav ul li a {
   text-decoration: none;
@@ -43,7 +43,6 @@ nav ul li a {
 .main {
   display: flex;
   justify-content: space-around;
-
 }
 
 .main__section__centro {
@@ -52,8 +51,6 @@ nav ul li a {
   gap: 50px;
   margin-right: 90px;
 }
-
-
 
 #form {
   display: flex;
@@ -70,8 +67,6 @@ nav ul li a {
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
-  
-
 }
 
 .inputSpan {
@@ -81,7 +76,6 @@ nav ul li a {
   color: white;
   font-weight: bold;
   text-align: left;
-
 }
 
 .input {
@@ -89,7 +83,6 @@ nav ul li a {
   outline: none;
   padding: 15px;
   border-radius: 5px;
-
 }
 
 .btnSubmit {
@@ -121,15 +114,12 @@ nav ul li a {
 }
 
 #tableData thead tr th {
-   /* text-align: center; */
   padding: 5px;
   font-family: "Karla", sans-serif;
   font-size: 18px;
   color: white;
   font-weight: bold;
 }
-
-
 
 footer {
   background-color: #f2f2f2;
@@ -156,4 +146,46 @@ footer {
   margin-top: 10px;
 }
 
+/* Media queries */
 
+@media (max-width: 768px) {
+  /* Estilos para dispositivos con un ancho máximo de 768px */
+  header {
+    padding: 10px;
+  }
+
+  .logo img {
+    height: 20px;
+  }
+
+  nav ul li {
+    margin-right: 5px;
+  }
+
+  .main__section__centro {
+    margin-right: 30px;
+  }
+
+  #form {
+    width: 100%;
+    margin: 20px;
+  }
+
+  #tableData {
+    width: 100%;
+    margin: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Estilos para dispositivos con un ancho máximo de 480px */
+  .main__section__centro {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #form,
+  #tableData {
+    margin: 10px;
+  }
+} 
